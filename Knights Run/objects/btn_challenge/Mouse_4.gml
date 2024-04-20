@@ -2,7 +2,7 @@
 if image_index = store.color_scheme and checking = 0
 {
 store.gems+=myReward
-///store.gems_earned+=myReward
+store.gems_earned+=myReward
 instance_create_depth(x-13,y-16,depth-10,effect_challenge)
 alarm[0]=5
 checking=5

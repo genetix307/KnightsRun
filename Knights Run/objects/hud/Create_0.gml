@@ -21,7 +21,7 @@ tmp_lifesteal_boost=0
 set_area()
 
 //Evil Creed
-if (store.card_slot_1 = 10 or store.card_slot_2 = 10 or store.card_slot_3 = 10 or store.card_slot_4 = 10) and store.current_stage>1 {store.enemy_base_level+=store.card_lvl_evilcreed store.gems+=(store.card_lvl_evilcreed*3)+2 store.gems_earned+=(store.card_lvl_evilcreed*3)+2}
+if (store.card_slot_1 = 10 or store.card_slot_2 = 10 or store.card_slot_3 = 10 or store.card_slot_4 = 10) and store.current_stage>1 {store.enemy_base_level+=round(store.card_lvl_evilcreed/10) store.gems+=store.card_lvl_evilcreed*store.current_stage store.gems_earned+=store.card_lvl_evilcreed*store.current_stage}
 
 instance_create_depth(x,y,depth,waveGen)
 if store.current_area="Mystic Meadows" {repeat 14+random(5) instance_create_depth(random(2400),random(190),0,stage_clouds) repeat random(10) instance_create_depth(random(-2400),random(190),0,bird) if !audio_is_playing(bgm_meadows) {audio_stop_all() audio_play_sound(bgm_meadows,1,true)}}
@@ -45,7 +45,7 @@ if store.card_slot_1 = 2 or store.card_slot_2 = 2 or store.card_slot_3 = 2 or st
 //Heart Piece Card
 if store.card_slot_1 = 3 or store.card_slot_2 = 3 or store.card_slot_3 = 3 or store.card_slot_4 = 3
 	{
-		if store.current_stage=1 {store.maxhp+=round(store.maxhp*((store.card_lvl_heartpiece*5+20)/100)) store.hp=store.maxhp store.regen+=store.card_lvl_heartpiece*.01}
+		if store.current_stage=1 {store.maxhp+=round(store.maxhp*(store.card_lvl_heartpiece*5/100)+1) store.hp=store.maxhp store.regen+=store.card_lvl_heartpiece*.01}
 	}
 //Mineshaft Card
 if (store.card_slot_1 = 4 or store.card_slot_2 = 4 or store.card_slot_3 = 4 or store.card_slot_4 = 4) and store.current_stage>1 

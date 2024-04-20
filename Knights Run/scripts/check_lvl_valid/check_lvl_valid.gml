@@ -35,7 +35,7 @@ if slot=11 {
 if store.perk_lvl_sacrifice>=9999 {return false}
 }
 if slot=12 {
-if store.perk_lvl_sideweapon>=99 {return false}
+if store.perk_lvl_sideweapon>=999 {return false}
 }
 if slot=13 {
 if store.perk_lvl_dailygold>=99 {return false}

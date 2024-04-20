@@ -14,7 +14,7 @@ if reward_item_name = "Monster Lure" {store.have_lure += reward_items}
 
 alarm[0]=3
 
-if (store.challenge_a=6 or store.challenge_b=6 or store.challenge_c=6) and store.goal_shopaholic < 2+store.lvl_shopaholic
+if (store.challenge_a=6 or store.challenge_b=6 or store.challenge_c=6) and store.goal_shopaholic < 5+(5*store.lvl_shopaholic)
 {
 	store.goal_shopaholic+=1		
 }

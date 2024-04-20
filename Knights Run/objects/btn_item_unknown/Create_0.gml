@@ -2,7 +2,7 @@
 depth = -10000
 image_speed = 0
 
-myName = "????"
+myName = ""
 
 hold=0
 

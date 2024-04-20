@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"partial_sum",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"partial_sum",
+  "parent":{
+    "name":"Helper",
+    "path":"folders/Scripts/Helper.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

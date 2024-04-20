@@ -1,5 +1,5 @@
 // Inherit the parent event
 event_inherited();
 
-if image_alpha<1 {image_alpha+=.05}
-
+if store.auto_perk=1 and image_alpha<1 {image_alpha+=.25}
+else if image_alpha<1 {image_alpha+=.05}

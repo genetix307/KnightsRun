@@ -2,7 +2,7 @@
 depth = -10000
 image_speed = 0
 
-myName = "Healing Salve\n+30% Regen +60s"
+myName = "Use All\nAll effects +5min"
 
 hold=0
 

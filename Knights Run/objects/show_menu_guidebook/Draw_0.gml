@@ -57,13 +57,13 @@ draw_text_ext_color(32,200,"Vampire Fang\n+15% Lifesteal chance for 60 seconds."
 draw_sprite(spr_item_vampirefang,0,12,209)
 draw_text_ext_color(32,250,"Lucky Clover\n+7% Luck for 60 seconds.",20,420,c_orange,c_orange,c_yellow,c_yellow,1)
 draw_sprite(spr_item_clover,0,12,259)
-draw_text_ext_color(32,300,"Chicken\nGain +3 Attack Damage for rest of run.",20,420,c_orange,c_orange,c_yellow,c_yellow,1)
+draw_text_ext_color(32,300,"Chicken\nGain +5 Attack Damage for rest of run.",20,420,c_orange,c_orange,c_yellow,c_yellow,1)
 draw_sprite(spr_item_chicken,0,12,309)
 draw_text_ext_color(32,350,"Monster Lure\nSpawn more enemies for 3 stages. Can be stacked.",20,420,c_orange,c_orange,c_yellow,c_yellow,1)
 draw_sprite(spr_item_lure,0,12,359)
 draw_text_ext_color(32,400,"Lamp Oil\nGuardians summon meter fills faster for 60 seconds.",20,420,c_orange,c_orange,c_yellow,c_yellow,1)
 draw_sprite(spr_item_lampoil,0,12,409)
-draw_text_ext_color(32,450,"Healing Salve\n+10 Regen health for 60 seconds.",20,420,c_orange,c_orange,c_yellow,c_yellow,1)
+draw_text_ext_color(32,450,"Healing Salve\n+10 Regen health, or +30% if larger, for 60 seconds.",20,420,c_orange,c_orange,c_yellow,c_yellow,1)
 draw_sprite(spr_item_healingsalve,0,12,459)
 }
 

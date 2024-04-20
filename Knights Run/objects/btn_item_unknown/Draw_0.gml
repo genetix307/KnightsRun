@@ -5,6 +5,6 @@ draw_set_font(font_upgrades)
 draw_set_color(c_white)
 draw_text(x+6,y+10,myName)
 draw_set_color(c_yellow)
-draw_text(x+6,y+42,"x0")
+draw_text(x+6,y+42,"")
 
 	
