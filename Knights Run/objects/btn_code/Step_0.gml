@@ -150,6 +150,14 @@ store.gems += reward
 instance_create_depth(x,y-8,depth-1000,show_reward).myReward = "Rewarded "+string(reward)+" Gems!"
 save_game()
 }
+if myResult = "spireslayer" and store.code_spireslayer = 0
+{
+reward = 250
+store.code_spireslayer = 1
+store.gems += reward
+instance_create_depth(x,y-8,depth-1000,show_reward).myReward = "Rewarded "+string(reward)+" Gems!"
+save_game()
+}
 
 
 image_index=store.color_scheme

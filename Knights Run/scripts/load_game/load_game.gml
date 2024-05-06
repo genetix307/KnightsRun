@@ -156,6 +156,7 @@ store.code_winterishere=ini_read_real( "save1", "code_winterishere",store.code_w
 store.code_lunarys=ini_read_real( "save1", "code_lunarys",store.code_lunarys);
 store.code_santa=ini_read_real( "save1", "code_santa",store.code_santa);
 store.code_fivestars=ini_read_real( "save1", "code_fivestars",store.code_fivestars);
+store.code_spireslayer=ini_read_real( "save1", "code_spireslayer",store.code_spireslayer);
 //Ingame Stats
 store.gold=ini_read_real( "save1", "gold",store.gold);
 store.current_stage=ini_read_real( "save1", "current_stage",store.current_stage);

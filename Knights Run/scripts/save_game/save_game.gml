@@ -155,6 +155,8 @@ ini_write_real( "save1", "code_feelgood", store.code_feelgood);
 ini_write_real( "save1", "code_winterishere", store.code_winterishere);
 ini_write_real( "save1", "code_lunarys", store.code_lunarys);
 ini_write_real( "save1", "code_santa", store.code_santa);
+ini_write_string( "save1", "code_fivestars", store.code_fivestars);	
+ini_write_string( "save1", "code_spireslayer", store.code_spireslayer);	
 //Ingame Stats
 ini_write_real( "save1", "gold", store.gold);
 ini_write_real( "save1", "current_stage", store.current_stage);

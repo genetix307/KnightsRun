@@ -170,4 +170,5 @@ store.code_winterishere=0
 store.code_lunarys=0
 store.code_santa=0
 store.code_fivestars=0
+store.code_spireslayer=0
 }
