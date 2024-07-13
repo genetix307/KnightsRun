@@ -14,6 +14,13 @@ if store.hp <= 0 and game_over = 0
 set_gameover()
 }
 
+//Auto Restart
+if game_over=1 and store.auto_restart=1
+{
+	if restart_time>0 {restart_time-=1}
+	if restart_time<=0 {reset_run() save_game() room=rm_maingame}
+}
+
 //Fade In
 if stage_complete=0 and show_fade>0 {show_fade-=.025*store.game_speed}
 

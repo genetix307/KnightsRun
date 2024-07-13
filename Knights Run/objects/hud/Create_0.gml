@@ -11,6 +11,7 @@ show_fade=1
 throw_axe=180
 endMessage=round(random(6))
 banner_gap=0
+restart_time=300
 alarm[0]=240 //Show tutorial
 
 //Status Boosts

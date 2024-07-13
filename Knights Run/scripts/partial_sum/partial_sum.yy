@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"partial_sum",
   "isCompatibility":false,
   "isDnD":false,

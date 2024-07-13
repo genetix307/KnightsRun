@@ -5,16 +5,17 @@ if hud.game_paused = 0 and hud.game_over=0 {
 hud.game_paused = 1
 //with default_ingame_tab {instance_destroy()}
 
-instance_create_depth(270,890,depth-10,btn_resume)
-instance_create_depth(74,890,depth-10,btn_abandon_run)
-instance_create_depth(92,420,depth-10,btn_sfx)
-instance_create_depth(92,480,depth-10,btn_bgm)
-instance_create_depth(92,540,depth-10,btn_autoupgrade)
-instance_create_depth(92,600,depth-10,btn_autoguardian)
-instance_create_depth(242,420,depth-10,btn_set_colorscheme)
-instance_create_depth(242,480,depth-10,btn_healthbars)
-instance_create_depth(242,540,depth-10,btn_autoperk)
-instance_create_depth(242,600,depth-10,btn_autoevent)
+instance_create_depth(270,870,depth-10,btn_resume)
+instance_create_depth(74,870,depth-10,btn_abandon_run)
+instance_create_depth(92,400,depth-10,btn_sfx)
+instance_create_depth(92,460,depth-10,btn_bgm)
+instance_create_depth(92,520,depth-10,btn_autoupgrade)
+instance_create_depth(92,580,depth-10,btn_autoguardian)
+instance_create_depth(242,400,depth-10,btn_set_colorscheme)
+instance_create_depth(242,460,depth-10,btn_healthbars)
+instance_create_depth(242,520,depth-10,btn_autoperk)
+instance_create_depth(242,580,depth-10,btn_autoevent)
+instance_create_depth(92,640,depth-10,btn_autorestart)
 
 
 instance_create_depth(81,103,depth-10,btn_challenge).my_slot=0

@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"challenge_headshot_king",
   "isCompatibility":false,
   "isDnD":false,

@@ -158,6 +158,13 @@ store.gems += reward
 instance_create_depth(x,y-8,depth-1000,show_reward).myReward = "Rewarded "+string(reward)+" Gems!"
 save_game()
 }
-
+if myResult = "cleric" and store.code_cleric = 0
+{
+reward = 10
+store.code_cleric = 1
+store.have_potion += reward
+instance_create_depth(x,y-8,depth-1000,show_reward).myReward = "+"+string(reward)+" Potions!"
+save_game()
+}
 
 image_index=store.color_scheme

@@ -13,6 +13,7 @@ store.show_healthbars=ini_read_real( "save1", "show_healthbars",store.show_healt
 store.auto_upgrade=ini_read_real( "save1", "auto_upgrade",store.auto_upgrade);
 store.auto_guardian=ini_read_real( "save1", "auto_guardian",store.auto_guardian);
 store.auto_event=ini_read_real( "save1", "auto_event",store.auto_event);
+store.auto_restart=ini_read_real( "save1", "auto_restart",store.auto_restart);
 store.story_scene=ini_read_real( "save1", "story_scene",store.story_scene);
 store.tutorial=ini_read_real( "save1", "tutorial",store.tutorial);
 //Challenges
@@ -157,6 +158,7 @@ store.code_lunarys=ini_read_real( "save1", "code_lunarys",store.code_lunarys);
 store.code_santa=ini_read_real( "save1", "code_santa",store.code_santa);
 store.code_fivestars=ini_read_real( "save1", "code_fivestars",store.code_fivestars);
 store.code_spireslayer=ini_read_real( "save1", "code_spireslayer",store.code_spireslayer);
+store.code_cleric=ini_read_real( "save1", "code_cleric",store.code_cleric);
 //Ingame Stats
 store.gold=ini_read_real( "save1", "gold",store.gold);
 store.current_stage=ini_read_real( "save1", "current_stage",store.current_stage);
@@ -185,7 +187,7 @@ store.luck=ini_read_real( "save1", "luck",store.luck);
 store.fury=ini_read_real( "save1", "fury",store.fury);
 //In game Status Effects
 store.active_focus=ini_read_real( "save1", "active_focus",store.active_focus);
-store.active_lures=ini_read_real( "save1", "active_lures",store.active_lures);
+//store.active_lures=ini_read_real( "save1", "active_lures",store.active_lures);
 store.active_vampire=ini_read_real( "save1", "active_vampire",store.active_vampire);
 store.active_clover=ini_read_real( "save1", "active_clover",store.active_clover);
 store.active_slow=ini_read_real( "save1", "active_slow",store.active_slow);

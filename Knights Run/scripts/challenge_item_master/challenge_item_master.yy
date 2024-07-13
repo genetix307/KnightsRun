@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"challenge_item_master",
   "isCompatibility":false,
   "isDnD":false,

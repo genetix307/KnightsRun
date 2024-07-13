@@ -1,7 +1,7 @@
-if game_paused == 0 {
-	var cx = camera_get_view_x(view_camera[0]);
+var cx = camera_get_view_x(view_camera[0]);
 	var cy = camera_get_view_y(view_camera[0]);
 
+if game_paused = 0 {
 	//Stage lighting/misc
 	if store.current_area == "Sunset Meadows" {
 		draw_set_alpha(.25)
@@ -180,7 +180,7 @@ if game_paused == 0 {
 } //End Pause Check
 
 //Draw Paused
-if hud.game_paused == 1 and instance_number(event_handler) < 1 {
+if hud.game_paused = 1 and instance_number(event_handler) < 1 {
 	draw_set_alpha(0.9)
 	draw_rectangle_color(0, 0, room_width, room_height, c_black, c_black, c_black, c_black, false)
 	draw_set_alpha(1)
@@ -202,12 +202,12 @@ if game_over = 1 {
 	draw_set_font(font_upgrades)
 	draw_text_color2(cx + 162, cy + 200, string(store.current_area), c_white, c_silver, 1, c_black, c_black, 0.25)
 	draw_text_color2(cx + 162, cy + 220, "Best Run: " + calc_number(store.best_stage), c_white, c_silver, 1, c_black, c_black, 0.25)
-	draw_text_color2(cx + 90, cy + 254, "Stage Reached:", c_white, c_silver, 1, c_black, c_black, 0.25)
-	draw_number_color(cx + 242, cy + 254, store.current_stage, c_white, c_silver, 1, c_black, c_black, 0.25)
-	draw_text_color2(cx + 90, cy + 279, "Levels Gained:", c_white, c_silver, 1, c_black, c_black, 0.25)
-	draw_number_color(cx + 242, cy + 279, store.level, c_white, c_silver, 1, c_black, c_black, 0.25)
-	draw_text_color2(cx + 90, cy + 304, "Enemies Slain:", c_white, c_silver, 1, c_black, c_black, 0.25)
-	draw_number_color(cx + 242, cy + 304, store.enemies_killed_run, c_white, c_silver, 1, c_black, c_black, 0.25)
+	draw_text_color2(cx + 110, cy + 254, "Stage Reached:", c_white, c_silver, 1, c_black, c_black, 0.25)
+	draw_number_color(cx + 262, cy + 254, store.current_stage, c_white, c_silver, 1, c_black, c_black, 0.25)
+	draw_text_color2(cx + 110, cy + 279, "Levels Gained:", c_white, c_silver, 1, c_black, c_black, 0.25)
+	draw_number_color(cx + 262, cy + 279, store.level, c_white, c_silver, 1, c_black, c_black, 0.25)
+	draw_text_color2(cx +110, cy + 304, "Enemies Slain:", c_white, c_silver, 1, c_black, c_black, 0.25)
+	draw_number_color(cx + 262, cy + 304, store.enemies_killed_run, c_white, c_silver, 1, c_black, c_black, 0.25)
 	draw_text_color2(cx + 162, cy + 329, "Tier Multiplier: x" + calc_number(1 + floor(store.current_stage / 100)), c_white, c_silver, 1, c_black, c_black, 0.25)
 	
 	//Show Gems bonuses
@@ -216,6 +216,11 @@ if game_over = 1 {
 		draw_text_color2(cx + 300, cy + 279, "+" + calc_number(round(store.level * 10)) + " gems", c_yellow, c_orange, 1, c_black, c_black, 0.5)
 		draw_text_color2(cx + 300, cy + 304, "+" +  calc_number(ceil(store.enemies_killed_run / 3)) + " gems", c_yellow, c_orange, 1, c_black, c_black, 0.5)
 		draw_text_color2(cx + 162, cy + 359, "Bonus Gems: " + calc_number(store.gems_earned_run), c_yellow, c_orange, 1, c_black, c_black, 0.5)
+	}
+	
+	if store.auto_restart=1
+	{
+	draw_text_color2(cx + 183, cy + 558, "Restart in " + string(ceil(hud.restart_time/60)), c_yellow, c_yellow, 1, c_black, c_black, 0.5)	
 	}
 	
 	var _text;

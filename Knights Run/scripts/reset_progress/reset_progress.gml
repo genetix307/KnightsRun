@@ -17,6 +17,7 @@ store.show_healthbars=0
 store.auto_upgrade=0
 store.auto_guardian=0
 store.auto_event=0
+store.auto_restart=0
 store.story_scene=0
 store.tutorial=0
 
@@ -171,4 +172,5 @@ store.code_lunarys=0
 store.code_santa=0
 store.code_fivestars=0
 store.code_spireslayer=0
+store.code_cleric=0
 }

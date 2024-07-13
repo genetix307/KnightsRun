@@ -13,6 +13,7 @@ ini_write_real( "save1", "show_healthbars", store.show_healthbars);
 ini_write_real( "save1", "auto_upgrade", store.auto_upgrade);
 ini_write_real( "save1", "auto_guardian", store.auto_guardian);
 ini_write_real( "save1", "auto_event", store.auto_event);
+ini_write_real( "save1", "auto_restart", store.auto_restart);
 ini_write_real( "save1", "story_scene", store.story_scene);
 ini_write_real( "save1", "tutorial", store.tutorial);
 //Challenges
@@ -247,6 +248,7 @@ ini_write_string( "save1", "last_stage", store.last_stage);
 ini_write_string( "save1", "second_last_stage", store.second_last_stage);
 ini_write_string( "save1", "bloodmoon", store.bloodmoon);	
 ini_write_string( "save1", "fivestars", store.code_fivestars);	
+ini_write_string( "save1", "cleric", store.code_cleric);	
 	
 	ini_close();
 

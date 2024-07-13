@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"challenge_bloodthirst",
   "isCompatibility":false,
   "isDnD":false,

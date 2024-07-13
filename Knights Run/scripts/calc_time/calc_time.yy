@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"calc_time",
   "isCompatibility":false,
   "isDnD":false,

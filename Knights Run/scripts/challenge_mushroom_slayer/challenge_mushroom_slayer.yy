@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"challenge_mushroom_slayer",
   "isCompatibility":false,
   "isDnD":false,
